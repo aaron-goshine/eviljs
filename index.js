@@ -13,15 +13,14 @@
  * @return {*}
  */
 
-var eviljs =  function (javaScript) {
+var eviljs = function (javaScript) {
   if (!javaScript) return ''
     return eval(javaScript)
 }
 
-var javaScript = process.argv.slice(2)[0];
+var javaScript = process.argv.slice(2)[0]
 if (javaScript) {
-  console.log( eviljs(javaScript))
+  console.log(eviljs(javaScript))
 } else {
   module.exports = eviljs
 }
-

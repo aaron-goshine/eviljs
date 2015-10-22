@@ -1,6 +1,6 @@
 {
   "name": "eviljs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small library providing a utility to evaluate mathematics expression using node ",
   "main": "index.js",
   "scripts": {
