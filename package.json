@@ -1,0 +1,35 @@
+{
+  "name": "eviljs",
+  "version": "1.0.0",
+  "description": "A small library providing a utility to evaluate mathematics expression using node ",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aarong.goshine/eviljs.git"
+  },
+  "keywords": [
+    "eval",
+    "eviljs",
+    "math",
+    "evil ginius"
+  ],
+  "author": "Aaron Goshine <greenlig@gmail.com> (http://goshine-design.co.uk/)",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/aaron.goshine/eviljs/issues"
+  },
+  "bin": {
+    "eviljs": "index.js"
+  },
+  "devDependencies": {
+    "mocha": "",
+    "chai": ""
+  }
+}
